@@ -1,10 +1,10 @@
-# Singlish
+# Akura_py
 
 [![Python Version](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![PyPI Version](https://img.shields.io/pypi/v/singlish.svg)](https://pypi.org/project/singlish/)
 
-Singlish is a **Python library** for **transliterating Sinhala text to English (Latin letters)**.  
+Akura_py is a **Python library** for **transliterating Sinhala text to English (Latin letters)**.  
 It converts Sinhala letters and names into **phonetic English**, preserving proper pronunciation, making it easier for developers and applications to handle Sinhala names.
 
 ---
