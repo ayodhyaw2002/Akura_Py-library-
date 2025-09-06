@@ -59,23 +59,19 @@ Run it:
 python test.py
 
 
-Contributing
-We welcome contributions!
+## Contributing
 
-Fork the repository
+We welcome contributions!  
 
-Create a new branch for your feature or bugfix
-
-Submit a Pull Request
+1. Fork the repository  
+2. Create a new branch for your feature or bugfix  
+3. Submit a Pull Request  
 
 Please make sure your code passes tests and follows PEP8 style.
 
-License
+## License
+
 MIT License. See LICENSE for details.
-
-About
-Singlish makes it easy to work with Sinhala text in Python projects, helping developers transliterate names, addresses, and other text accurately into English phonetics.
-
 
 ---
 
@@ -85,3 +81,4 @@ Save this exactly as `README.md` and push it to GitHub:
 git add README.md
 git commit -m "Add full README for Singlish library"
 git push origin main
+
