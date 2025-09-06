@@ -58,6 +58,7 @@ Run it:
 
 python test.py
 
+```
 
 ## Contributing
 
@@ -75,10 +76,6 @@ MIT License. See LICENSE for details.
 
 ---
 
-Save this exactly as `README.md` and push it to GitHub:
 
-```bash
-git add README.md
-git commit -m "Add full README for Singlish library"
-git push origin main
+
 
