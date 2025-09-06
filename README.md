@@ -24,34 +24,39 @@ It converts Sinhala letters and names into **phonetic English**, preserving prop
 Install via pip:
 
 ```bash
-pip install singlish
+Step 1: Download the folder
+Tell users to download the folder Akura_py_lib from your GitHub repo as a ZIP or clone the repo.
 
-Usage
-Transliterate a single word
-from singlish import transliterate
+If ZIP: extract it anywhere.
 
-word = "අරුණෝද"
-print(transliterate(word))
-# Output: arunoda
+Step 2: Open terminal or command prompt
+Navigate to the folder:
 
-Transliterate a list of words
-from singlish import transliterate_list
+cd path/to/Akura_py_lib
+For example, if it’s on Desktop:
 
+cd C:\Users\Username\Desktop\Akura_py_lib
+Step 3: Install the library locally
+Option 1 – Normal install:
+
+pip install .
+Option 2 – Editable install (if they want to change the code):
+
+pip install -e .
+Step 4: Test it
+Create a Python file outside the folder, e.g., test.py:
+
+from singlish import transliterate, transliterate_list
+
+# Single word
+print(transliterate("අරුණෝද"))  # Output: arunoda
+
+# List of words
 words = ["අරුණෝද", "අමරසූරිය", "ජයවික්‍රම"]
 print(transliterate_list(words))
-# Output: ['arunoda', 'amarasuriya', 'jayavikrama']
+Run it:
 
-Mapping
-The library comes with a default Sinhala → English mapping for common letters and names.
-
-You can extend the dictionary to include additional names or uncommon words.
-
-Example:
-
-from singlish import SINHALA_MAP
-
-# Add a new mapping
-SINHALA_MAP["නම"] = "nama"
+python test.py
 
 
 Contributing
